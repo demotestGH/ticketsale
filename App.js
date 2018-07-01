@@ -4,30 +4,10 @@
  * @flow
  */
 
-import React, { Component } from 'react';
-import {
-  Platform,
-  StyleSheet,
-  Text,
-  View,
-  YellowBox
-} from 'react-native';
-import {SM, RootStack} from './Router'
+import React from 'react';
+import {SM} from './Router'
 
 console.disableYellowBox = true; //disable warning yellowbox 
-/*const RootStack = createStackNavigator(
-  {
-    Home:Login,  
-    Home_Main:Main
-  },
-  {
-    initialRouteName: 'Home',
-    navigationOptions: {
-      headerStyle: cs.headerStyle,
-    }
-  }
-);*/
-
 
 export default class App extends React.Component {
   render() {
@@ -36,4 +16,3 @@ export default class App extends React.Component {
     );
   }
 }
-

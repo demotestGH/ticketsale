@@ -3,7 +3,6 @@
  */
 import React from 'react'
 import{
-    StyleSheet,
     Text,
     View,
     TextInput,
@@ -15,7 +14,7 @@ import gc from '../src/Globals'
 
 export default class Login extends React.Component{
     static navigationOptions = {
-        header: null, //hide bar-title       
+        header: null, //hide bar-title  
     }
     render(){       
         return(
@@ -33,7 +32,7 @@ export default class Login extends React.Component{
                     <View style={{ flexDirection: 'row', marginTop:20, alignSelf: 'stretch',justifyContent: 'space-between'}}>
                         <View>
                             <TouchableOpacity style={cs.button}>
-                                <Text style={cs.buttonText} onPress={() => this.props.navigation.navigate('Home_Main')}>
+                                <Text style={cs.buttonText} onPress={() => this.props.navigation.navigate('HomeScreen')}>
                                    {gc.STRNAME.LOGIN}
                                 </Text>            
                             </TouchableOpacity>

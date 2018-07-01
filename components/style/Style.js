@@ -74,7 +74,7 @@ const commonstyle =StyleSheet.create({
     headerStyle:{
         backgroundColor: gc.COLOR.BACKGROUD_HEADER_BAR,//'#f4511e',        
         paddingLeft:20,
-        paddingRight:20   
+        paddingRight:20,
     },
     headerMainTitle:{
         color:'#CCFFFF',
