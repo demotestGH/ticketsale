@@ -12,7 +12,7 @@ const commonstyle =StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor: gc.COLOR.PRIMARYCOLOR,//'#66CCFF',
+        backgroundColor: gc.COLOR.SIDE_MENU_BACKGROUD_COLOR,
         paddingLeft:20,
         paddingRight:20
       },    
@@ -21,7 +21,7 @@ const commonstyle =StyleSheet.create({
         flexDirection: 'row',
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor: gc.COLOR.BACKGROUDTEXT,//'#CCFFFF',
+        backgroundColor: gc.COLOR.BACKGROUDTEXT,
         borderWidth: 0,
         borderColor: 'transparent',
         height:50,
@@ -35,11 +35,11 @@ const commonstyle =StyleSheet.create({
         alignItems: 'center',
     },
     headerLoginTitle:{
-        fontSize: 24,
-        color: gc.COLOR.TITLECOLOR,//'#ff6600',
+        fontSize: 28,
+        color: gc.COLOR.TITLECOLOR,
         fontFamily: 'inkfree',
         paddingBottom:10,
-        borderBottomColor: gc.COLOR.BACKGROUDBUTTON,//'#199187',
+        borderBottomColor: gc.COLOR.UNDERLINE_TITILE_COLOR,
         borderBottomWidth:1,
     },
     textInput:{
@@ -48,11 +48,11 @@ const commonstyle =StyleSheet.create({
         alignSelf: 'stretch',
         height:40,
         width:220,
-        color: gc.COLOR.BACKGROUDBUTTON//'#199187',       
+        color: gc.COLOR.BACKGROUDBUTTON  
     },
     button:{
         alignItems:'center',
-        backgroundColor:gc.COLOR.BACKGROUDBUTTON,//'#199187',
+        backgroundColor:gc.COLOR.BACKGROUDBUTTON,
         width:120,
         height:50,
         padding:15,
@@ -61,7 +61,7 @@ const commonstyle =StyleSheet.create({
     buttonText:{
         fontSize: 16,
         fontFamily:'tahoma',
-        color:gc.COLOR.BACKGROUDTEXT,//'#CCFFFF',
+        color:gc.COLOR.BACKGROUDTEXT,
     },
     logo:{
         height:100,
@@ -72,16 +72,49 @@ const commonstyle =StyleSheet.create({
      * Main_Style
      */
     headerStyle:{
-        backgroundColor: gc.COLOR.BACKGROUD_HEADER_BAR,//'#f4511e',        
+        backgroundColor: gc.COLOR.SIDE_MENU_HEADER_COLOR,    
         paddingLeft:20,
         paddingRight:20,
     },
     headerMainTitle:{
-        color:'#CCFFFF',
+        color:gc.COLOR.BACKGROUDTEXT,
         padding:5,
         fontSize:20,
         fontFamily:'tahoma'
     },
+    /**
+     * Side_Menu_Style
+     */
+    containerSideMenu:{
+        flex: 1,       
+        backgroundColor: gc.COLOR.SIDE_MENU_BACKGROUD_COLOR,
+    },
+    SideMenuHeader:{
+        alignSelf: 'stretch',
+        height:100,
+        backgroundColor:gc.COLOR.SIDE_MENU_HEADER_COLOR
+    },    
+    SideMenuIcon:{
+        height:60,
+        width:60,
+        resizeMode : 'stretch',
+    },
+    SMHText:{
+        fontFamily:'tahoma',
+        fontSize:18,
+        color:gc.COLOR.BACKGROUDTEXT
+    },
+    SMContentPadding:{
+        flexDirection: 'row',
+        paddingBottom:20,
+    },
+    SMContentText:{
+        paddingLeft:10,
+        fontFamily:'tahoma',
+        fontSize:16,
+        color:gc.COLOR.SIDE_MENU_CONTENT_COLOR,
+    }
+
 });
 
 export default commonstyle;

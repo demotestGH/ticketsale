@@ -37,7 +37,7 @@ export const RootStack = createStackNavigator(
     },
 },
 {
-    drawerWidth: 300,
+    drawerWidth: 280,
     drawerPosition: 'left',
     contentComponent: props => <SideMenu {...props}/>
 }

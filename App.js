@@ -1,7 +1,9 @@
 /**
- * Sample React Native App
- * https://github.com/facebook/react-native
- * @flow
+ * --- Ticket Sale App ---
+ * Created date:2018-06-27
+ * By: Boomtrt
+ * -----------------------
+ * https://github.com/demotestGH/ticketsale
  */
 
 import React from 'react';
