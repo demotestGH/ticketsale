@@ -11,6 +11,7 @@ import{
 } from 'react-native';
 import cs from '../style/Style'
 import gc from '../src/Globals'
+import fc from '../src/Function'
 
 
 export default class SideMenu extends React.Component {      
@@ -72,7 +73,7 @@ export default class SideMenu extends React.Component {
                         <Text style={cs.SMContentText}>{gc.SIDE_MENU_LIST.LOUT}</Text>  
                       </TouchableOpacity> 
 
-                      <TouchableOpacity style={cs.SMContentPadding} onPress={() =>{}}>
+                      <TouchableOpacity style={cs.SMContentPadding} onPress={()=>fc.EXIT()}>
                         <Image
                           source={require('../icons/exit.png')}
                           style={cs.imageStyle}

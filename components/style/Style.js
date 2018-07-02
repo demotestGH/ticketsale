@@ -82,6 +82,7 @@ const commonstyle =StyleSheet.create({
         fontSize:20,
         fontFamily:'tahoma'
     },
+
     /**
      * Side_Menu_Style
      */
@@ -113,7 +114,7 @@ const commonstyle =StyleSheet.create({
         fontFamily:'tahoma',
         fontSize:16,
         color:gc.COLOR.SIDE_MENU_CONTENT_COLOR,
-    }
+    },
 
 });
 
